@@ -1,140 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOME 9-1-1 NEWS</title>
-<link rel="icon" href="favicon.png">
-<link rel="stylesheet" href="style/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME 9-1-1 NEWS</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style/styles.css">
 </head>
+
 <body>
+    <!-- Hamburger menu and navigation links-->
+    <button id="openMenu" class="open-menu">☰</button>
+    <nav id="sideMenu" class="side-menu">
+        <button id="closeMenu" class="close-menu">x</button>
+        <a href="index.html">HOME</a>
+        <a href="interviews.html">INTERVIEWS</a>
+        <a href="stills.html">STILLS</a>
+        <a href="ficrecs.html">FIC RECS</a>
+        <a href="aboutus.html">ABOUT US</a>
+    </nav>
 
- <button id="openMenu" class="open-menu">☰</button>
-
-<nav id="sideMenu" class="side-menu">
-     <button id="openMenu" class="open-menu"><img class="search" src="graphic elements/sökglas.png" alt="sökglas"></button>
-     <button id="closeMenu" class="close-menu">x</button>
-                <a href="index.html"><h4>HOME</h4></a>
-                <a href="interviews.html"><h4>INTERVIEWS</h4></a>
-                <a href="stills.html"><h4>STILLS</h4></a>
-                <a href="ficrecs.html"><h4>FIC RECS</h4></a>
-                <a href="aboutus.html"><h4>ABOUT US</h4></a> 
-</nav>
+    <!-- Wrapper for the main content of the page-->
     <div id="wrapper">
+         <h1 class="visually-hidden">9-1-1 NEWS HOME</h1>
 
-        <a href="index.html"><div id="header"><img class="news911" src="graphic elements/header911news.png" alt="9-1-1 news header"/>
-    
-            <img class="huvudbild" src="images/911-season-10-photos-abc.jpg.webp" alt="headerbild"/></div></a>
-        
-            <div id="columns">
-                <div class="box">
+        <a href="index.html">
+           
+            <!-- Header section with 9-1-1 NEWS graphic and main image-->
 
-                    <img class="sidorubrik" src="graphic elements/previousepisode.png" alt="previous episode rubrik">
-                    <hr style="border: 1px dotted #d30000"></p>
+            <div id="header"><img class="news911" src="graphic elements/header911news.png" alt="9-1-1 news header" />
 
-                    <p class="episodes">10x5 Who's your daddy?</p>
-                    <p class="datetimeside"><img class="kalenderikon" src="graphic elements/kalender.png" alt="kalenderikon">02:00 CET 13/11</p>
-                    <br>
-                    
-                </div>
-
-                <div class="box">
-                    <img class="sidorubrik" src="graphic elements/nextepisode.png" alt="previous episode rubrik">
-                    
-                    <hr style="border: 1px dotted #d30000"></p>
-
-                    <p class="episodes">10x6 Et Tu?</p>
-                    <p class="datetimeside"><img class="kalenderikon" src="graphic elements/kalender.png" alt="kalenderikon">02:00 CET 20/11</p>
-                    <br>
-                    
-                </div>
-                    
-                <div class="box">
-                    <h3>LATEST</h3>
+                <img class="huvudbild" src="images/911-season-10-photos-abc.jpg.webp" alt="headerbild" />
+            </div>
+        </a>
+        <!-- Sidebar with next episode information-->
+        <div id="columns">
+            <div class="box">
+                <h3 class="sidebar-heading">« PREVIOUS EPISODE</h3>
                 <hr style="border: 1px dotted #d30000">
-                
+                </p>
 
-            <ul class="menulinks">
-                <li>
-                    <a href="1005poststills.html">Post episode stills: 10x5 Who's your daddy?</a>
-                </li>
-                <li>
-                    <a href="1005prestills.html">Pre episode stills: 10x5 Who's your daddy?</a>
-                </li>
-                <li>
-                    <a href="interviews2.html">TV INSIDER: ‘9-1-1’s Oliver Stark Teases Buck & Eddie Issue After Premiere Incident With Chris & Theo</a>
-                </li> 
-                <li>
-                    <a href="interviews3.html">SCREENRANT: 9-1-1’s Peter Krause Explains How Bobby Could Still Be Alive</a>
-                </li>
-                <li>
-                    <a href="interviews4.html">PEOPLE EXCLUSIVE: Angela Bassett Says 9-1-1 Feels Like ‘Art Imitating Life,' Shares How It Influences Her Approach to Health</a>
-                </li>
-            </ul>
-                </div>
+                <p class="episodes">10x5 Who's your daddy?</p>
+                <p class="datetimeside"><img class="kalenderikon" src="graphic elements/kalender.png"
+                        alt="kalenderikon">02:00 CET 13/11</p>
+                <br>
 
-                </div> 
-            <div id="content">   
-                <h1>LATEST</h1><p style="border-bottom:1px dotted #d30000"></p>
-            
-            <h2>Post episode stills: 10x5 Who's your daddy?</h2>
+            </div>
+            <div class="box">
+                <h3 class="sidebar-heading">NEXT EPISODE »</h3>
+
+                <hr style="border: 1px dotted #d30000">
+                </p>
+
+                <p class="episodes">10x6 Et Tu?</p>
+                <p class="datetimeside"><img class="kalenderikon" src="graphic elements/kalender.png"
+                        alt="kalenderikon">02:00 CET 20/11</p>
+                <br>
+
+            </div>
+            <!-- Sidebar with latest news-->
+            <div class="box">
+                <h3 class="sidebar-heading">LATEST</h3>
+                <hr style="border: 1px dotted #d30000">
+
+                <!-- List of latest news links with titles and URLs-->
+                <ul class="menulinks">
+                    <li>
+                        <a href="1005poststills.html">Post episode stills: 10x5 Who's your daddy?</a>
+                    </li>
+                    <li>
+                        <a href="1005prestills.html">Pre episode stills: 10x5 Who's your daddy?</a>
+                    </li>
+                    <li>
+                        <a href="interviews2.html">TV INSIDER: ‘9-1-1’s Oliver Stark Teases Buck & Eddie Issue After
+                            Premiere Incident With Chris & Theo</a>
+                    </li>
+                    <li>
+                        <a href="interviews3.html">SCREENRANT: 9-1-1’s Peter Krause Explains How Bobby Could Still Be
+                            Alive</a>
+                    </li>
+                    <li>
+                        <a href="interviews4.html">PEOPLE EXCLUSIVE: Angela Bassett Says 9-1-1 Feels Like ‘Art Imitating
+                            Life,' Shares How It Influences Her Approach to Health</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- Main content area with latest news articles and images-->
+        <div id="content">
+            <h2>LATEST</h2>
+            <p style="border-bottom:1px dotted #d30000"></p>
+
+            <h3 class="content-heading">Post episode stills: 10x5 Who's your daddy?</h3>
             <p class="published">
-            <img src="graphic elements/kalender.png" alt="kalenderikon">
-            <span>Published:</span>
-        </p>
-    
-        <img class="stills" src="images/183324_1124.jpg" alt="Still of Buck in his backyard">
-        <img class="stills" src="images/183066_0929.jpg" alt="Still of Buck and Eddie at the hospital">
-        <img class="stills" src="images/183324_0943.jpg" alt="Still of Buck and Eddie at Buck's house">
-        <img class="stills" src="images/183324_0698.jpg" alt="Still of Buck, Eddie, Theo and Deidra">
-        <img class="stills" src="images/183324_0865.jpg" alt="Still of Buck and Theo">
-        <img class="stills" src="images/183324_0556.jpg" alt="Still of Eddie and Theo">
-        <img class="stills" src="images/183325_0465.jpg" alt="Still of the cast on a call">
+                <img src="graphic elements/kalender.png" alt="kalenderikon">
+                <span>Published: 19 november 2026</span>
+            </p>
 
-        
-        <hr style="border: 1px dotted #d30000"></p>
-        <br>
-
-        <h2>Pre episode stills: 10x5 Who's your daddy?</h2>
-            <p class="published">
-            <img src="graphic elements/kalender.png" alt="kalenderikon">
-            <span>Published:</span>
-        </p>
-    
-        <img class="stills" src="images/eddiehen.jpg" alt="Eddie and Hen">
-        <img class="stills" src="images/chimney.jpg" alt="Chimney">
-        <img class="stills" src="images/harryravi.jpg" alt="Harry and Ravi">
-        <img class="stills" src="images/angelabassett.jpg" alt="Angela Bassett">
+            <img class="stills" src="images/183324_1124.jpg" alt="Still of Buck in his backyard">
+            <img class="stills" src="images/183324_1077.jpg" alt="Still of Eddie">
+            <img class="stills" src="images/183324_0943.jpg" alt="Still of Buck and Eddie at Buck's house">
+            <img class="stills" src="images/183324_0698.jpg" alt="Still of Buck, Eddie, Theo and Deidra">
+            <img class="stills" src="images/183324_0865.jpg" alt="Still of Buck and Theo">
+            <img class="stills" src="images/183324_0556.jpg" alt="Still of Eddie and Theo">
+            <img class="stills" src="images/183325_0465.jpg" alt="Still of the cast on a call">
 
 
-         <hr style="border: 1px dotted #d30000"></p>
-        <br>
-
-        <h2>TV INSIDER:<i>‘9-1-1’s Oliver Stark Teases Buck & Eddie Issue After Premiere Incident With Chris & Theo</i></h2>
-        <p class="published">
-            <img src="graphic elements/kalender.png" alt="kalenderikon">
-            <span>Published:</span>
-        </p>
-            <a href="https://www.tvinsider.com/1298623/911-buck-eddie-tension-theo-oliver-stark-interview/"><img class="stills" src="images/183066_0929.jpg" alt="Still of Buck and Eddie"></a>
-        <hr style="border: 1px dotted #d30000"></p>
-        <br>
-        <h2>SCREENRANT: <i> 9-1-1’s Peter Krause Explains How Bobby Could Still Be Alive</i></h2>
-    <p class="published">
-            <img src="graphic elements/kalender.png" alt="kalenderikon">
-            <span>Published:</span>
-        </p>  
-            <a href="https://screenrant.com/9-1-1-bobby-alive-theory-peter-krause-explained/"><img class="stills" src="images/peterkrause.jpeg" alt="Peter Krause"></a>
+            <hr style="border: 1px dotted #d30000">
+            </p>
             <br>
-        <hr style="border: 1px dotted #d30000"></p>
-            </div>
-        
-        
-            </div>
+
+            <h3 class="content-heading">Pre episode stills: 10x5 Who's your daddy?</h3>
+            <p class="published">
+                <img src="graphic elements/kalender.png" alt="kalenderikon">
+                <span>Published: 19 november 2026</span>
+            </p>
+
+            <img class="stills" src="images/eddiehen.jpg" alt="Eddie and Hen">
+            <img class="stills" src="images/chimney.jpg" alt="Chimney">
+            <img class="stills" src="images/harryravi.jpg" alt="Harry and Ravi">
+            <img class="stills" src="images/angelabassett.jpg" alt="Angela Bassett">
+
+
+            <hr style="border: 1px dotted #d30000">
+
+            <br>
+
+            <h3 class="content-heading">TV INSIDER:<i>‘9-1-1’s Oliver Stark Teases Buck & Eddie Issue After Premiere
+                    Incident With Chris & Theo</i></h3>
+            <p class="published">
+                <img src="graphic elements/kalender.png" alt="kalenderikon">
+                <span>Published: 19 november 2026</span>
+            </p>
+            <a href="https://www.tvinsider.com/1298623/911-buck-eddie-tension-theo-oliver-stark-interview/"><img
+                    class="stills" src="images/183066_0929.jpg" alt="Still of Buck and Eddie"></a>
+            <hr style="border: 1px dotted #d30000">
+
+            <br>
+            <h3 class="content-heading">SCREENRANT: <i> 9-1-1’s Peter Krause Explains How Bobby Could Still Be Alive</i>
+            </h3>
+            <p class="published">
+                <img src="graphic elements/kalender.png" alt="kalenderikon">
+                <span>Published: 19 november 2026</span>
+            </p>
+            <a href="https://screenrant.com/9-1-1-bobby-alive-theory-peter-krause-explained/"><img class="stills"
+                    src="images/peterkrause.jpeg" alt="Peter Krause"></a>
+            <br>
+            <hr style="border: 1px dotted #d30000">
+        </div>
+
+
     </div>
+    </div>
+    <!-- Script for hamburger menu functionality-->
+    <script src="script.js"></script>
 
- <script src="script.js"></script>
 
- 
 </body>
 
 
