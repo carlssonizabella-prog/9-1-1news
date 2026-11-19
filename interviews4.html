@@ -1,83 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>9-1-1 NEWS</title>
-<link rel="icon" href="favicon.png">
-<link rel="stylesheet" href="style/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-1-1 NEWS</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style/styles.css">
 </head>
+
 <body>
+<body>
+    <h1 class="visually-hidden">9-1-1 NEWS HOME</h1>
 
- <button id="openMenu" class="open-menu">☰</button>
+    <!-- Hamburger menu and navigation links-->
+    <button id="openMenu" class="open-menu">☰</button>
+    <nav id="sideMenu" class="side-menu">
+        <button id="closeMenu" class="close-menu">x</button>
+        <a href="index.html">HOME</a>
+        <a href="interviews.html">INTERVIEWS</a>
+        <a href="stills.html">STILLS</a>
+        <a href="ficrecs.html">FIC RECS</a>
+        <a href="aboutus.html">ABOUT US</a>
+    </nav>
 
-<nav id="sideMenu" class="side-menu">
-     <button id="openMenu" class="open-menu"><img class="search" src="graphic elements/sökglas.png" alt="sökglas"></button>
-     <button id="closeMenu" class="close-menu">x</button>
-                <a href="index.html"><h4>HOME</h4></a>
-                <a href="interviews.html"><h4>INTERVIEWS</h4></a>
-                <a href="stills.html"><h4>STILLS</h4></a>
-                <a href="ficrecs.html"><h4>FIC RECS</h4></a>
-                <a href="aboutus.html"><h4>ABOUT US</h4></a> 
-</nav>
+<!-- Wrapper for the main content of the page-->
     <div id="wrapper">
 
-        <a href="index.html"><div id="header"><img class="news911" src="graphic elements/header911news.png" alt="9-1-1 news header"/>
-    
-            <img class="huvudbild" src= "images/911-season-10-photos-abc.jpg.webp" alt="headerbild"/></div></a>
-        
-            <div id="columns">
-        
-                    
-                <div class="box">
-                    <h3>LATEST</h3>
+        <a href="index.html">
+
+    <!-- Header section with 9-1-1 NEWS graphic and main image-->
+
+            <div id="header"><img class="news911" src="graphic elements/header911news.png" alt="9-1-1 news header" />
+                <img class="huvudbild" src="images/911-season-10-photos-abc.jpg.webp" alt="headerbild" />
+            </div>
+        </a>
+<!-- Sidebar with latest news articles and links-->
+        <div id="columns">
+
+<!-- Sidebar with latest news-->
+            <div class="box">
+                <h3 class="sidebar-heading">LATEST</h3>
                 <hr style="border: 1px dotted #d30000">
-                
 
-            <ul class="menulinks">
-                <li>
-                    <a href="1005poststills.html">Post episode stills: 10x5 Who's your daddy?</a>
-                </li>
-                <li>
-                    <a href="1005prestills.html">Pre episode stills: 10x5 Who's your daddy?</a>
-                </li>
-                <li>
-                    <a href="interviews2.html">TV INSIDER: ‘9-1-1’s Oliver Stark Teases Buck & Eddie Issue After Premiere Incident With Chris & Theo</a>
-                </li> 
-                <li>
-                    <a href="interviews3.html">SCREENRANT: 9-1-1’s Peter Krause Explains How Bobby Could Still Be Alive</a>
-                </li>
-                <li>
-                    <a href="interviews4.html">PEOPLE EXCLUSIVE: Angela Bassett Says 9-1-1 Feels Like ‘Art Imitating Life,' Shares How It Influences Her Approach to Health</a>
-                </li>
-            </ul>
-                </div>
+                <!-- List of latest news links with titles and URLs-->
+                <ul class="menulinks">
+                    <li>
+                        <a href="1005poststills.html">Post episode stills: 10x5 Who's your daddy?</a>
+                    </li>
+                    <li>
+                        <a href="1005prestills.html">Pre episode stills: 10x5 Who's your daddy?</a>
+                    </li>
+                    <li>
+                        <a href="interviews2.html">TV INSIDER: ‘9-1-1’s Oliver Stark Teases Buck & Eddie Issue After
+                            Premiere Incident With Chris & Theo</a>
+                    </li>
+                    <li>
+                        <a href="interviews3.html">SCREENRANT: 9-1-1’s Peter Krause Explains How Bobby Could Still Be
+                            Alive</a>
+                    </li>
+                    <li>
+                        <a href="interviews4.html">PEOPLE EXCLUSIVE: Angela Bassett Says 9-1-1 Feels Like ‘Art Imitating
+                            Life,' Shares How It Influences Her Approach to Health</a>
+                    </li>
+                </ul>
+            </div>
 
-                </div> 
-            <div id="content">    
-        <h2>PEOPLE EXCLUSIVE: Angela Bassett Says 9-1-1 Feels Like ‘Art Imitating Life,' Shares How It Influences Her Approach to Health</i></h2>
+        </div>
+        <div id="content">
+
+<!-- Main content area with latest news articles and images-->
+             <h3 class="content-heading">PEOPLE EXCLUSIVE: Angela Bassett Says 9-1-1 Feels Like ‘Art Imitating Life,' Shares How It Influences Her Approach to Health</i></h3>
     <p class="published">
             <img src="graphic elements/kalender.png" alt="kalenderikon">
-            <span>Published:</span>
-        </p>   
+            <span>Published: 19 November 2026</span>
+        </p>  
             <a href="https://people.com/angela-bassett-9-1-1-influences-approach-to-health-11798920"><img class="stills" src="images/angelabassettinterview.jpg" alt="Angela Bassett"></a>
-
                 <div class="episode-navigation">
-                    <a href="#" class="button previous"></a>
-                    <a href="interviews3.html" class="button next">Next »</a>
-                </div>
+                    <a href="interviews4.html" class="button previous">« Previous</a>
+                    <a href="interviews2.html" class="button next">Next »</a>
+
             </div>
-        
-    
-        
-            
+        </div>
+
     </div>
+    </div>
+<!-- Script for handling the hamburger menu functionality-->
+    <script src="script.js"></script>
 
- <script src="script.js"></script>
 
- 
 </body>
 
 
 
 </html>
+  
